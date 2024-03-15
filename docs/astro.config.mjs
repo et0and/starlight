@@ -34,7 +34,7 @@ export default defineConfig({
 	trailingSlash: 'always',
 	integrations: [
 		starlight({
-			title: 'Starlight',
+			title: 'Te Wāhi Auaha',
 			logo: {
 				light: '/src/assets/logo-light.svg',
 				dark: '/src/assets/logo-dark.svg',
@@ -42,10 +42,6 @@ export default defineConfig({
 			},
 			editLink: {
 				baseUrl: 'https://github.com/withastro/starlight/edit/main/docs/',
-			},
-			social: {
-				github: 'https://github.com/withastro/starlight',
-				discord: 'https://astro.build/chat',
 			},
 			head: [
 				{
