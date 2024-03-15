@@ -35,11 +35,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Te Wāhi Auaha',
-			logo: {
-				light: '/src/assets/logo-light.svg',
-				dark: '/src/assets/logo-dark.svg',
-				replacesTitle: true,
-			},
+			
 			editLink: {
 				baseUrl: 'https://github.com/withastro/starlight/edit/main/docs/',
 			},
