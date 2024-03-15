@@ -36,5 +36,8 @@
       "path": "examples/basics/dist/_astro/*.css",
       "limit": "14 kB"
     }
-  ]
+  ],
+  "dependencies": {
+    "astro-embed": "^0.6.1"
+  }
 }

@@ -10,8 +10,8 @@ lastUpdated: false
 hero:
   title: Welcome to Te Wāhi Learn
   tagline: Learn about the different tools we use, and try out a sample project.
-  video:
-    file: https://youtu.be/tAw80XRpcSI?si=3_M-PeSy-4yX57yY
+  image:
+    file: ~/assets/hero-star.webp
   actions:
     - text: Get started
       icon: right-arrow
@@ -19,11 +19,5 @@ hero:
       link: /getting-started/
 ---
 
-import AboutAstro from '~/components/about-astro.astro';
-
-<AboutAstro title="About">
-Te Wāhi Auaha is a maker space and innovation hub, based at Takapuna Grammar School
-
-[Learn about Te Wāhi](https://tewahi.com/)
-
-</AboutAstro>
+import { YouTube } from 'astro-embed';
+<YouTube id="https://youtu.be/xtTy5nKay_Y" />
