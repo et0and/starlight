@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import starlightLinksValidator from 'starlight-links-validator';
+import embeds from 'astro-embed/integration';
 
 export const locales = {
 	root: { label: 'English', lang: 'en' },
@@ -33,6 +34,7 @@ export default defineConfig({
 	site,
 	trailingSlash: 'always',
 	integrations: [
+		embeds(),
 		starlight({
 			title: 'Te Wāhi Auaha',
 			logo: {
