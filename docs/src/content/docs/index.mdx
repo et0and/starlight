@@ -24,15 +24,3 @@ import { YouTube } from 'astro-embed';
 <YouTube id="https://youtu.be/tAw80XRpcSI?si=RE67LhcmyQrk1rAO" />
 
 Video shot by Isobel Beszant and Bo Chen, edited by Bo Chen. 
-
-<script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", (user) => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-</script>
