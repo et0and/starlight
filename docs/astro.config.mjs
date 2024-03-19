@@ -43,8 +43,7 @@ export default defineConfig({
 				{
 					tag: 'script',
 					attrs: {
-						src: 'https://cdn.usefathom.com/script.js',
-						'data-site': 'EZBHTSIG',
+						src: 'https://identity.netlify.com/v1/netlify-identity-widget.js',
 						defer: true,
 					},
 				},
